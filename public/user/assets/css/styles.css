@@ -1,0 +1,247 @@
+:root {
+  --color-main: #ffc500;
+  --color-second: black;
+  --color-white: white;
+  --color-grey: #f1f1f1;
+}
+
+body {
+  /*font-family: Alatsi, sans-serif;*/
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.scrn-width {
+  padding: 0vh 5vw;
+}
+
+.subheader {
+  color: var(--color-main);
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.heading {
+  color: var(--color-second);
+  font-weight: bold;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: var(--color-main);
+  transition: 0.5s;
+}
+
+.hover-main:hover {
+    background-color: var(--color-main);
+    color: var(--color-second);
+    transition: 0.5s;
+  }
+
+label, .form-label {
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.btn {
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.btn:hover, .btn.active {
+  background-color: var(--color-main);
+  color: var(--color-second);
+  transition: 0.5s;
+}
+
+.btn-main {
+  background-color: var(--color-main);
+  color: var(--color-second);
+}
+
+.btn-main:hover {
+  background-color: var(--color-second);
+  color: var(--color-main);
+  transition: 0.5s;
+}
+
+.btn-second {
+  background-color: var(--color-second);
+  color: var(--color-main);
+  font-weight: bold;
+}
+
+.btn-second:hover {
+  background-color: var(--color-main);
+  color: var(--color-second);
+  transition: 0.5s;
+}
+
+.btn-hover-main:hover {
+  background-color: var(--color-main);
+  color: var(--color-second);
+  transition: 0.5s;
+}
+
+.btn-hover-second:hover {
+  background-color: var(--color-second);
+  color: var(--color-main);
+  transition: 0.5s;
+}
+
+.row {
+  margin: 0px;
+}
+
+img {
+  height: auto;
+  width: auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.color-main {
+  color: var(--color-main);
+}
+
+.color-second {
+  color: var(--color-second);
+}
+
+.color-grey {
+  color: var(--color-grey);
+}
+
+.bg-main {
+  background-color: var(--color-main);
+}
+
+.bg-second {
+  background-color: var(--color-second);
+}
+
+.bg-grey {
+  background-color: var(--color-grey);
+}
+
+.border-main {
+  border-style: solid;
+  border-color: var(--color-main);
+}
+
+nav {
+  color: white;
+  background: rgba(0,0,0,0.7);
+  width: 100vw;
+  position: fixed;
+  padding: 1vh 2vw;
+  border-bottom-style: solid;
+}
+
+nav .logo-div {
+}
+
+nav .logo-div img {
+  height: 10vh;
+}
+
+nav .logo-div h2 {
+  text-transform: capitalize;
+}
+
+nav .logo-div h2 .k {
+  color: var(--color-main);
+}
+
+nav .nav-list {
+  text-transform: uppercase;
+}
+
+.section {
+  min-height: 100vh;
+  padding: 10vh 5vw;
+}
+
+.page-hero {
+  min-height: 40vh;
+  padding-top: 10vh;
+  background: url("../../assets/img/inner-bg.jpg") center / cover no-repeat, var(--color-second);
+}
+
+.page-hero h1 {
+  font-size: 4vw;
+}
+
+.hero {
+  min-height: 120vh;
+  background: url("../../assets/img/homepage-3-2-bg.jpg") center / cover no-repeat;
+}
+
+.hero .main-row {
+  padding-right: 5vw;
+  padding-left: 5vw;
+}
+
+.hero h1 {
+}
+
+.hero .k {
+  color: var(--color-second);
+}
+
+.hero .t {
+  color: var(--color-main);
+}
+
+.hero .car-type-list {
+}
+
+.hero .car-type-list img {
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.hero .car-type-list {
+  text-transform: capitalize;
+}
+
+.car-type-list .selected {
+  background-color: var(--color-main);
+}
+
+.tarifff-list img {
+  height: 100px;
+}
+
+.float-list {
+  z-index: 10;
+  position: absolute;
+}
+
+footer {
+  padding-top: 10vh;
+  background: var(--bs-gray-900);
+}
+
+footer .div {
+  padding: 0vh 5vw;
+}
+
+footer .copyright {
+  background: #000000;
+}
+
+footer .link-list .link {
+  border-bottom-width: 2px;
+  border-bottom-style: dotted;
+}
+
